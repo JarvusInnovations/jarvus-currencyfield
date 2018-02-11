@@ -1,0 +1,105 @@
+Sencha Cmd 6.1.2.15 - Crash report
+================================================
+An error occurred while executing the following command: -version
+
+Diagnostic information:
+=======================
+                    buildenvironment.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield
+               buildenvironment.load.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield
+                          cmd.config.dir : C:\Users\bc\bin\Sencha\Cmd\6.1.2.15               
+                                 cmd.dir : C:\Users\bc\bin\Sencha\Cmd\6.1.2.15               
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : windows                                           
+                         cmd.server.port : 1841                                              
+                     cmd.unicode.escapes : C:\Users\bc\bin\Sencha\Cmd\6.1.2.15/unicode-escapes.json
+                             cmd.version : 6.1.2.15                                          
+                            cmd.web.port : 1841                                              
+                                 ext.dir : C:\dev\test\sencha-workspace/ext-6.0.1.250        
+                       inspector.address : http://localhost:1839/                            
+                      package.base.names :                                                   
+                   package.base.packages :                                                   
+                       package.build.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/build
+                       package.classpath : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/src,C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/src
+                     package.classpath.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/src
+                     package.classpath.1 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/src
+                package.classpath.length : 2                                                 
+                     package.cmd.version : 5.1.3.61                                          
+                   package.compatVersion : 1.0.0                                             
+                      package.config.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield\.sencha\package
+                         package.creator : anonymous                                         
+             package.detailedDescription : Long description of package                       
+                             package.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield
+                    package.example.path : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/examples
+                  package.example.path.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/examples
+             package.example.path.length : 1                                                 
+                    package.examples.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/examples
+                          package.format : 1                                                 
+                           package.local : true                                              
+                            package.name : jarvus-currencyfield                              
+                       package.namespace : Jarvus.currencyfield                              
+                          package.output : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/build
+                       package.overrides : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/overrides,C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/overrides
+                     package.overrides.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/overrides
+                     package.overrides.1 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/overrides
+                package.overrides.length : 2                                                 
+                  package.requires.names :                                                   
+               package.requires.packages :                                                   
+                        package.sass.etc : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/etc/all.scss,C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/etc/all.scss
+                      package.sass.etc.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/etc/all.scss
+                      package.sass.etc.1 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/etc/all.scss
+                 package.sass.etc.length : 2                                                 
+                    package.sass.etcpath : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/etc/all.scss
+                  package.sass.namespace : Jarvus.currencyfield                              
+                        package.sass.src : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/src,C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/src
+                      package.sass.src.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/src
+                      package.sass.src.1 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/src
+                 package.sass.src.length : 2                                                 
+                    package.sass.srcpath : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/src
+                        package.sass.var : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/var,C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/var
+                      package.sass.var.0 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/var
+                      package.sass.var.1 : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/${toolkit.name}/sass/var
+                 package.sass.var.length : 2                                                 
+                    package.sass.varpath : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/var
+    package.slicer.js.0.isWidgetManifest : true                                              
+                package.slicer.js.0.path : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/sass/example/custom.js
+                package.slicer.js.length : 1                                                 
+                     package.subpkgs.dir : C:\dev\test\sencha-workspace\packages\jarvus-currencyfield/packages
+                         package.summary : Short summary                                     
+                            package.type : code                                              
+                         package.version : 1.0.0                                             
+                          repo.local.dir : C:\Users\bc\bin\Sencha\Cmd\repo                   
+        system.java.net.useSystemProxies : true                                              
+                          workspace.apps : Classic,Modern                                    
+                        workspace.apps.0 : Classic                                           
+                        workspace.apps.1 : Modern                                            
+                   workspace.apps.length : 2                                                 
+                     workspace.build.dir : C:\dev\test\sencha-workspace/build                
+                    workspace.config.dir : C:\dev\test\sencha-workspace\.sencha\workspace    
+                           workspace.dir : C:\dev\test\sencha-workspace                      
+                  workspace.packages.dir : C:\dev\test\sencha-workspace/packages/local,C:\dev\test\sencha-workspace/packages
+              workspace.packages.extract : C:\dev\test\sencha-workspace/packages/remote      
+                     workspace.theme.dir : C:\dev\test\sencha-workspace/packages/local,C:\dev\test\sencha-workspace/packages/${args.themeName}
+
+Exception information:
+=======================
+No such property : version
+     at com.sencha.cli.AbstractCommand$Properties.getProperty(AbstractCommand.java:444)
+     at com.sencha.cli.AbstractCommand.parseConfigParam(AbstractCommand.java:468)
+     at com.sencha.cli.AbstractCommand.processConfigParam(AbstractCommand.java:518)
+     at com.sencha.cli.AbstractCommand.configure(AbstractCommand.java:114)
+     at com.sencha.command.Sencha.main(Sencha.java:135)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+     at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+
