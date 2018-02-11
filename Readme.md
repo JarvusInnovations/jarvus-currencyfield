@@ -1,2 +1,0 @@
-# jarvus-currencyfield - Read Me
-
