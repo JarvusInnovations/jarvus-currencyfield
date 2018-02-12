@@ -16,7 +16,8 @@ Ext.define('Jarvus.form.field.Currency', {
         if (Ext.isEmpty(v)) {
             return '';
         } else {
-            v = v.toString().replace(Ext.util.Format.currencySign, '').replace(Ext.util.Format.thousandSeparator, '');
+            var thousands = new RegExp(Ext.util.Format.thousandSeparator, "g");
+            v = v.toString().replace(Ext.util.Format.currencySign, '').replace(thousands, '');
             if (v % 1 === 0) {
                 // Return value formatted with no precision since there are no digits after the decimal
                 return Ext.util.Format.number(v, '0');
