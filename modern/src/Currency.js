@@ -2,7 +2,22 @@ Ext.define('Jarvus.form.field.Currency', {
     extend: 'Ext.field.Text',
     xtype: 'jarvus-currencyfield',
 
-   onFocus: function(e) {
+    initialize: function() {
+        var me = this,
+            val;
+
+        me.callParent();
+
+        val = me.getValue();
+
+        if (Ext.isEmpty(val) || val===0) {
+            me.setValue('');
+        } else {
+            me.setValue(Ext.util.Format.currency(val));
+        }
+    },
+
+    onFocus: function(e) {
         var me = this,
             val = me.getValue();
 
