@@ -6,7 +6,7 @@ Ext.define('Jarvus.form.field.Currency', {
         var me = this,
             val = me.getValue();
 
-        me.setValue(isNaN(val) ? '': val.toFixed(2));
+        me.setValue(isNaN(val) || Ext.isEmpty(val) ? '' : val.toFixed(2));
         me.callParent(arguments);
     },
 
@@ -14,11 +14,16 @@ Ext.define('Jarvus.form.field.Currency', {
         var me = this,
             val = me.getValue();
 
-        me.setValue(Ext.util.Format.currency(val));
+        if (Ext.isEmpty(val) || val===0) {
+            me.setValue('');
+        } else {
+            me.setValue(Ext.util.Format.currency(val));
+        }
         me.callParent(arguments);
     },
 
     onKeyUp: function() {
+        console.log('keyup');
         this.setValue(this.getComponent().getValue().replace(/[^0-9$,.]/g, ''));
     },
 
