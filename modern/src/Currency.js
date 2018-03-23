@@ -39,7 +39,7 @@ Ext.define('Jarvus.form.field.Currency', {
 
     onKeyUp: function() {
         console.log('keyup');
-        this.setValue(this.getComponent().getValue().replace(/[^0-9$,.]/g, ''));
+        this.setValue(this.getComponent().getValue().replace(/[^0-9,.]/g, ''));
     },
 
     removeFormat: function (v) {
@@ -62,7 +62,7 @@ Ext.define('Jarvus.form.field.Currency', {
         var me = this,
             val = me.callParent().toString();
 
-        val = val.replace(/[^0-9$,.]/g, '');
+        val = val.replace(/[^0-9,.]/g, '');
         val = me.removeFormat(val);
         val = parseFloat(val);
 
